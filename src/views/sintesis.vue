@@ -2,16 +2,19 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    .titulo-sexto.color-acento-contenido.encima(data-aos="fade-up")
+      h5 Medición de huella de carbono en organizaciones
+      p Síntesis: Marco normativo sobre GEI y metodologías de cálculo de GEI
+    p(data-aos="fade-up") El desarrollo de este componente de aprendizaje busca fortalecer en los aprendices del curso complementario sobre “Medición de huella de carbono en organizaciones”, sus habilidades y conocimientos respecto a los marcos normativos, políticas, protocolos y estrategias necesarias para la implementación de la medición de GEI dentro de cualquier organización.
+    p(data-aos="fade-up") Este componente establece de manera clara la ruta que se debe tener en cuenta para desarrollar acciones respecto a la medición de Gases Efecto Invernadero (GEI), los cuales son fundamentales en la conservación y el cuidado del medio ambiente.
+    p(data-aos="fade-up") Una breve revisión de los temas vistos, se encuentran en el siguiente esquema:
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-up-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          img(src="@/assets/curso/sintesis/sintesis.svg", alt="alt")
+      .col-auto(data-aos="fade-up-left")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -20,6 +23,7 @@
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Sintesis',
   data: () => ({
