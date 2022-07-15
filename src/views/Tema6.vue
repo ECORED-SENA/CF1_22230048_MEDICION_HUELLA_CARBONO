@@ -93,7 +93,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Sector disolventes y otras sustancias")
         .row.justify-content-center
           .col-md-7
-            h4 Sector disolventes
+            h4 Sector disolventes y otras sustancias
             p.text-bold Fuente de emisión: 
             ul.lista-ul
               li 
@@ -132,7 +132,6 @@
           .col-md-7
             h4 Sector desechos
             span.text-bold Fuente de emisión:
-            span quema de combustible en:
             ul.lista-ul
               li 
                 i.fas.fa-asterisk

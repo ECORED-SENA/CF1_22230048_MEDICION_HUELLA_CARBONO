@@ -37,16 +37,16 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema5/imagen4.png')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen5.jpg')})`}")
+              img(src='@/assets/curso/tema5/imagen6.png')
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen7.jpg')})`}")
 
       .col-sm-4.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up-right")
         .tarjeta1.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema5/imagen6.png')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen7.jpg')})`}")
+              img(src='@/assets/curso/tema5/imagen4.png')
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen5.jpg')})`}")
     separador
     #ghg.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
       h2 5.2 GHG Protocol
@@ -59,7 +59,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El estándar Protocolo de Gases de Efecto Invernadero (GHG <i>Protocol</i>) fue estructurado en 1998 por la coordinación del <i>World Resources Institute</i> (WRI) y el <i>World Business Council for Sustainable Development</i> (WBCSD) o Consejo Mundial Empresarial para el Desarrollo Sostenible, con el propósito de establecer un lineamiento a seguir para la cuantificación e informe de las emisiones de GEI de las organizaciones, y que fuese reconocido a nivel internacional.   
     p.mt-5(data-aos="fade-up") Actualmente, se han establecido dos estándares, el primero, que permite la cuantificación y reporte de las emisiones a nivel corporativo, y el segundo, que orienta la cuantificación de emisiones derivadas de proyectos.
-    p.mb-5(data-aos="fade-up") El estándar de cuantificación y reporte de emisiones a nivel corporativo (ECCR) establece los criterios metodológicos para desarrollar inventarios de emisiones, donde se incluya la cuantificación de los GEI considerados en el Protocolo de Kyoto. Este estándar se constituye como la herramienta clave para las organizaciones en términos de contabilización y gestión de las emisiones de GEI basados en los siguientes principios 
+    p.mb-5(data-aos="fade-up") El estándar de cuantificación y reporte de emisiones a nivel corporativo (ECCR) establece los criterios metodológicos para desarrollar inventarios de emisiones, donde se incluya la cuantificación de los GEI considerados en el Protocolo de Kyoto. Este estándar se constituye como la herramienta clave para las organizaciones en términos de contabilización y gestión de las emisiones de GEI basados en los siguientes principios.
     .row.justify-content-center.mt-5
       .col-xxl-12(data-aos="fade-up-right")
         .row.justify-content-center

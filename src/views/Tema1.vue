@@ -45,7 +45,7 @@
                   img.sizeimg(src='@/assets/curso/tema1/tiempo4.png')
 
               .col-md-8.mb-4.mb-md-0
-                p Durante este año, se desarrolla el First Assessment Report IPCC (FAR), que es el primer informe de evaluación del Panel Intergubernamental de Expertos sobre el Cambio Climático (IPCC).<br/>
+                p Durante este año, se desarrolla el <i>First Assessment Report</i> IPCC (FAR), que es el primer informe de evaluación del Panel Intergubernamental de Expertos sobre el Cambio Climático (IPCC).<br/>
                   span Este reporte sirve como fundamento para el desarrollo de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC), dicho informe fue  un referente para la definición de la primera Conferencia de las Partes (COP) sobre el Clima, desarrollada posteriormente, en 1995, en Berlín, Alemania.
 
             .row(titulo="1992")
@@ -63,7 +63,7 @@
                   img.sizeimg(src='@/assets/curso/tema1/tiempo6.png')
                 p.text-small.text-end Nota: tomado de www.britannica.com
               .col-md-8.mb-4.mb-md-0
-                p Fue adoptado el Protocolo de Kyoto, sin embargo, dado lo complejo que fue su proceso de ratificación, solo entró en vigor a comienzos del año 2005. En el marco de este protocolo, los países industrializados adquieren el compromiso de tomar acciones para reducir las emisiones de Gases Efecto Invernadero (GEI). Los países que firmaron y ratificaron dicho protocolo se comprometieron a reducir en al menos un 5 % sus emisiones y a lograrlo entre los años 2008 y 2012, considerando como año base los niveles de emisiones generados en el año de 1990.
+                p Fue adoptado el Protocolo de Kyoto, sin embargo, dado lo complejo que fue su proceso de ratificación, solo entró en vigor a comienzos del año 2005. En el marco de este protocolo, los países industrializados adquieren el compromiso de tomar acciones para reducir las emisiones de Gases Efecto Invernadero (GEI). Los países que firmaron y ratificaron dicho protocolo se comprometieron a reducir en al menos un 5% sus emisiones y a lograrlo entre los años 2008 y 2012, considerando como año base los niveles de emisiones generados en el año de 1990.
 
             .row(titulo="2012")
               .col-md-4.ps-5

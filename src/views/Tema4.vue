@@ -73,24 +73,6 @@
           SlyderA
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
-                  img(src='@/assets/curso/tema4/slider1.svg')
-              .col-md-8.mb-4.mb-md-0
-                h4.mb-0 industria
-                p Consumo de combustible y emisión de contaminantes derivado de procesos.
-                .row
-                  .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-8.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2, CFC, HFC y SF6.
-            .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
-                  img.mb-4(src='@/assets/curso/tema4/slider2.svg')
-              .col-lg-8.col-md-7.col-sm-7.mb-4.mb-md-0
-                h4.mb-0 Agrícola
-                p.me-md-5.me-sm-0 Uso de fertilizantes de tipo sintético, fermentación entérica de ganado, gestión del estiércol y uso de equipos agrícolas. 
-                .row
-                  .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-10.col-6.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center.mt-md-0 GIE= CO2, N2O y CH4
-            .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img.mb-4(src='@/assets/curso/tema4/slider3.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.sm-mt-4.margenabajo Residencial
@@ -107,6 +89,24 @@
                 .row
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-4.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO2
+            .row.justify-content-center.align-items-center
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+                  img(src='@/assets/curso/tema4/slider1.svg')
+              .col-md-8.mb-4.mb-md-0
+                h4.mb-0 industria
+                p Consumo de combustible y emisión de contaminantes derivado de procesos.
+                .row
+                  .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-8.fondoblanco.p-2
+                    p.mb-0.text-bold.text-center GIE= CO2, CFC, HFC y SF6.
+            .row.justify-content-center.align-items-center
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+                  img.mb-4(src='@/assets/curso/tema4/slider2.svg')
+              .col-lg-8.col-md-7.col-sm-7.mb-4.mb-md-0
+                h4.mb-0 Agrícola
+                p.me-md-5.me-sm-0 Uso de fertilizantes de tipo sintético, fermentación entérica de ganado, gestión del estiércol y uso de equipos agrícolas. 
+                .row
+                  .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-10.col-6.fondoblanco.p-2
+                    p.mb-0.text-bold.text-center.mt-md-0 GIE= CO2, N2O y CH4
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img(src='@/assets/curso/tema4/slider5.svg')
@@ -145,25 +145,25 @@
     p.mb-5(data-aos="fade-up-right") El cálculo de las emisiones de GEI permite identificar el impacto de cada uno de los procesos desarrollados dentro de una organización frente a la calidad del aire y el calentamiento global, cada organización puede definir los procesos a los cuales desea realizar esta cuantificación, con el fin de establecer metas y objetivos que propendan por la disminución o reducción de emisiones de GEI a la atmósfera. Existen dos formas de realizar la cuantificación de las emisiones de GEI, para conocerlas, revise con atención el siguiente recurso:
     TabsB.color-acento-contenido.mb-5(data-aos="fade-up-left")
       .py-4.py-md-5(titulo="Inventario de emisiones" :icono="require('@/assets/curso/tema4/emisiones.svg')")
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-md-4
             .titulo-sexto.color-acento-contenido
               h5 Consumo de combustible
             figure
               img(src='@/assets/curso/tema4/tabemisiones.svg')
           .col-md-6.mb-4.mb-md-0
-            p Esta forma de cuantificación de las emisiones de GEI propone un mayor análisis de cada una de las fuentes de emisión de la organización, ya que se realiza bajo la perspectiva del ciclo de vida e incluye las fuentes de emisión directas en indirectas. Existen dos tipos de huella de carbono, las cuales son:
-            span.text-bold Huella de carbono organizacional: 
-            span cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.<br/><br/>
-            span.text-bold Huella de carbono de producto: 
-            span cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
+            p Esta es la forma elemental para cuantificar emisiones de GEI de cada una de las fuentes de emisión de la organización. Para determinar el inventario de emisiones, se debe contar con información de consumo de combustibles de cada uno de los procesos y del transporte; también, en algunos casos, se puede incluir el consumo de energía eléctrica para ampliar el enfoque de análisis.
       .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema4/huella.svg')")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema4/tabhuella.svg')
           .col-md-6
-            p Esta es la forma elemental para cuantificar emisiones de GEI de cada una de las fuentes de emisión de la organización. Para determinar el inventario de emisiones, se debe contar con información de consumo de combustibles de cada uno de los procesos y del transporte; también, en algunos casos, se puede incluir el consumo de energía eléctrica para ampliar el enfoque de análisis.
+            p Esta forma de cuantificación de las emisiones de GEI propone un mayor análisis de cada una de las fuentes de emisión de la organización, ya que se realiza bajo la perspectiva del ciclo de vida e incluye las fuentes de emisión directas en indirectas. Existen dos tipos de huella de carbono, las cuales son:
+            span.text-bold Huella de carbono organizacional: 
+            span cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.<br/><br/>
+            span.text-bold Huella de carbono de producto: 
+            span cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
     p.my-5(data-aos="fade-up-right") Por otro lado, se debe tener en cuenta que las emisiones pueden clasificarse, según el tipo de fuente de emisión, en:
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-right")
       h5 Figura 4 
@@ -186,13 +186,11 @@
           .tarjeta1.fondoverde.p-0.mt-0
             img(src='@/assets/curso/tema4/imagen6.png')
             .row.justify-content-center
-              .col-xxl-11.p-3
-                span.text-bold Emisiones indirectas
-                span Emisiones provenientes de fuentes sobre las cuales la organización no tiene el control. Estas pueden ser de dos tipos:  <br/>
-                span.text-bold Indirectas tipo II: 
-                span aquellas atribuibles al uso de la energía eléctrica.<br/> 
-                span.text-bold Indirectas tipo III: 
-                span aquellas atribuibles a los productos y servicios que la organización necesita para su funcionamiento.
+              .col-xxl-11.p-0.pb-4
+                p.text-bold.m-4 Emisiones indirectas 
+                p.m-4 Emisiones provenientes de fuentes sobre las cuales la organización no tiene el control. Estas pueden ser de dos tipos:  <br/>
+                <p style="margin: 2em;"><span style="font-weight:700;">Indirectas tipo II: </span>aquellas atribuibles al uso de la energía eléctrica.</p>
+                <p style="margin: 2em;"><span style="font-weight:700;">Indirectas tipo III: </span>aquellas atribuibles a los productos y servicios que la organización necesita para su funcionamiento.</p>
     p.my-5(data-aos="fade-up-right") Cabe resaltar que para poder cuantificar la huella de carbono se debe tener claro el nivel de actividad generadora de las emisiones de GEI: por ejemplo, la cantidad de gas natural utilizado para el funcionamiento de una caldera y los factores de emisión que presumen la cantidad de emisiones de GEI por cada unidad del dato de la actividad; estos varían de acuerdo con la actividad evaluada. En el componente formativo 2, “Cálculo de GEI y estrategias de gestión”, encontrará las fuentes para la selección de estos factores de emisión de conformidad con la actividad evaluada.
     .cajon.puntacajon.p-4.mb-4.fondo10(data-aos="fade")
       .row.justify-content-center.align-items-center

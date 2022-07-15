@@ -9,7 +9,8 @@
     .row.justify-content-center.align-items-center
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5(data-aos="fade-up-right")
         p Los instrumentos de planificación permiten el cumplimiento de las metas y objetivos trazados y propician el establecimiento de actividades concretas del gobierno y de cada uno de los sectores de la economía responsables de la correspondiente implementación. Por ello, el diseñar e implementar instrumentos de planificación asegura el cumplimiento de las metas y objetivos propuestos por el gobierno en instancias internacionales.
-        p La política nacional de cambio climático es la base sobre la cual se establecen los diferentes instrumentos y políticas públicas que permiten la adaptación y mitigación del cambio climático. En la figura 1, se muestran las líneas instrumentales de esta política
+        p La política nacional de cambio climático es la base sobre la cual se establecen los diferentes instrumentos y políticas públicas que permiten la adaptación y mitigación del cambio climático. 
+        p En la figura 1, se muestran las líneas instrumentales de esta política
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5(data-aos="fade-up-left")
         img(src='@/assets/curso/tema3/imagen1.png')
     .row.justify-content-center.mt-5
