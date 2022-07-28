@@ -90,7 +90,7 @@
     p.my-5(data-aos="fade-up-right") En Colombia, se han definido seis (6) sectores prioritarios para el establecimiento de las medidas de adaptación y mitigación del cambio climático, los cuales son: energético, transporte, agropecuario, industrial, residuos y forestal, y para cada uno de estos sectores, se han definido algunas medidas que podrá conocer a través del siguiente recurso educativo:
     figure.mb-5(data-aos="fade")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fIhnxWwxkg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video    
 </template>
 
