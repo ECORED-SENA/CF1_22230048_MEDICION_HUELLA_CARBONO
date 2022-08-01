@@ -20,7 +20,7 @@
               p A nivel internacional, se encuentran diversas metodologías a partir de las cuales se puede realizar la medición de los GEI; sin embargo, aquí se enuncian las más usadas, indistintamente del COR de negocio de las organizaciones.
     separador
     #iso.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
-      h2 5.1 ISO 14064-1:2019 ISO
+      h2 5.1 ISO 14064-1:2019
     p(data-aos="fade-up") Este se ha definido como el instrumento para la cuantificación de los GEI, la cual tiene como objetivo trazar una directriz clara para comunicar informes de emisiones veraces y que sustenten las estrategias de mitigación y reducción de estas.
     p.mb-5(data-aos="fade-up") Este estándar está compuesto por tres estándares, donde se establecen los principios, criterios y etapas necesarias para cuantificar y verificar las emisiones de GEI de una organización y la definición de prácticas para la gestión, comunicación y validación de los informes de emisiones de GEI; para conocerlos, revise con atención el siguiente recurso educativo: 
     .row.mb-5(data-aos="fade-down-left")
@@ -62,9 +62,9 @@
     p.mb-5(data-aos="fade-up") El estándar de cuantificación y reporte de emisiones a nivel corporativo (ECCR) establece los criterios metodológicos para desarrollar inventarios de emisiones, donde se incluya la cuantificación de los GEI considerados en el Protocolo de Kyoto. Este estándar se constituye como la herramienta clave para las organizaciones en términos de contabilización y gestión de las emisiones de GEI basados en los siguientes principios.
     .row.justify-content-center.mt-5
       .col-xxl-12(data-aos="fade-up-right")
-        .row.justify-content-center
+        .row.justify-content-start
           .col-xxl-6.col-xl-8.col-lg-9.col-md-11.col-sm-9.col-12
-            .titulo-sexto.color-acento-contenido.encima 
+            .titulo-sexto.color-acento-contenido.encima.mb-5
               h5 Figura 5. 
               span Principios del ECCR
         img.subir1(src='@/assets/curso/tema5/figura2.svg')
@@ -81,7 +81,7 @@
     #5_3_iso.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
       h2 5.3 ISO 14067:2018
     span.text-bold(data-aos="fade-up-right") La ISO 14067 indica los criterios y requisitos para calcular la huella de carbono de productos y servicios, se le denomina <i>Carbon Footprint of a Product</i> (CFP). 
-    span(data-aos="fade-up-right") Este estándar permite conocer de forma específica y veraz el impacto del desarrollo de un producto o servicio en una organización, con el fin de poder elegir las estrategias más adecuadas de mitigación de los GEI.
+    span(data-aos="fade-up-right") Este estándar permite conocer de forma específica y veraz el impacto del desarrollo de un producto o servicio en una organización, con el fin de poder elegir las estrategias más adecuadas de mitigación de los GEI. 
     span(data-aos="fade-up-right") La medición de la CFPE es una práctica que contribuye a la toma de decisiones informadas frente al cambio climático, de forma efectiva, y esto es ratificado por la CMNUCC. 
     img.my-5(data-aos="fade-up-right")(src='@/assets/curso/tema5/imagen10.jpg')
     p.mb-5(data-aos="fade-up-right") Este estándar permite conocer claramente el uso energético dentro de la organización e incluye información específica del sector forestal y agrícola. Además, está incluido dentro de la familia de la ISO 14060, teniendo como objetivo común dar herramientas a las organizaciones para la cuantificación, control, informe y validación de los GEI emitidos, apostando así a la lucha por la mitigación del cambio climático (ver figura 6).

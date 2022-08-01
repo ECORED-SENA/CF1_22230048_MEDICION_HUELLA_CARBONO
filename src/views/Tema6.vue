@@ -44,7 +44,7 @@
                 img.mt-4(src='@/assets/curso/tema6/figura3.svg')
             h4.m-5 Países no anexo
             p.m-5 Son los países en desarrollo que no deben cumplir compromisos cuantitativos de mitigación, sino informar periódicamente sus inventarios de emisiones e implementar políticas públicas encaminadas a la mitigación y adaptación al cambio climático.
-    p.my-5 Por otro lado, dentro del protocolo, en su Anexo A, se listan los GEI de mayor interés para la comunidad científica por sus potenciales efectos negativos, los cuales son el CO2, CH4, NO2, HFC, SF6 y PFC, siendo el CO2 uno de los GEI más abundantes en la atmósfera. En el siguiente recurso educativo, se enuncian los principales sectores emisores de GEI con sus respectivas fuentes de emisión:
+    p.my-5 Por otro lado, dentro del protocolo, en su Anexo A, se listan los GEI de mayor interés para la comunidad científica por sus potenciales efectos negativos, los cuales son el CO<sub>2</sub>, CH<sub>4</sub>, NO<sub>2</sub>, HFC, SF<sub>6</sub> y PFC, siendo el CO<sub>2</sub> uno de los GEI más abundantes en la atmósfera. En el siguiente recurso educativo, se enuncian los principales sectores emisores de GEI con sus respectivas fuentes de emisión:
     TabsA.color-primario.mb-5(data-aos="fade-up-right")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Sector energético")
         .row.justify-content-center
@@ -87,7 +87,7 @@
                 | Producción de metales.
               li 
                 i.fas.fa-asterisk
-                | Producción y consumo de halocarbonos y SF6.
+                | Producción y consumo de halocarbonos y SF<sub>6</sub>.
           .col-md-4
             img(src='@/assets/curso/tema6/industrial.svg')      
       .tarjeta.color-acento-botones--borde.p-4(titulo="Sector disolventes y otras sustancias")
@@ -169,7 +169,7 @@
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5(data-aos="fade-up-right")
         img(src='@/assets/curso/tema6/imagen5.png')
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-12.col-12.mb-5(data-aos="fade-up-left")
-        p Las sustancias de principal atención de eliminación fueron los clorofluorocarbonos (CFC) y halones, debido a su alto potencial de agotamiento del ozono, y la eliminación de los hidroclorofluorocarbónoses (HCFC) fue más tardía ya que estas sustancias eran usadas como sustitutos de la transición de los CFC y por su pequeño potencial de agotamiento del ozono.
+        p Las sustancias de principal atención de eliminación fueron los clorofluorocarbonos (CFC) y halones, debido a su alto potencial de agotamiento del ozono, y la eliminación de los hidroclorofluorocarbónos (HCFC) fue más tardía ya que estas sustancias eran usadas como sustitutos de la transición de los CFC y por su pequeño potencial de agotamiento del ozono.
         p La agenda de eliminación de los HCFC se estructuró en 1992 para los países desarrollados y en desarrollo, y se estableció la eliminación total de estos en los países desarrollados en 2030 y en los países en desarrollo, en 2040. Sin embargo, en 2007, los países parte decidieron adelantar esta agenda de eliminación para todos los países.
         .cajon.puntacajon.p-4.my-4.fondo10
           p Los países parte se reúnen anualmente, con el fin de verificar y tomar decisiones frente a la implementación del Protocolo; dentro de estas reuniones, se pueden realizar enmiendas al Protocolo. Hasta la actualidad, se han realizado 6 enmiendas. 

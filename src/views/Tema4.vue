@@ -21,15 +21,15 @@
           .tarjeta1.fondo7.p-0.mt-0
             img(src='@/assets/curso/tema4/imagen1.jpg')
             p.text-bold.m-4 GEI directos
-            p.m-4 Son aquellos gases que se transforman en la atmósfera en GEI directos e inciden en la generación del O3 troposférico, dentro de estos, se encuentran los compuestos orgánicos volátiles (COV), el monóxido de carbono (CO) y óxidos de nitrógeno.
+            p.m-4 Son aquellos gases que se transforman en la atmósfera en GEI directos e inciden en la generación del O<sub>3</sub> troposférico, dentro de estos, se encuentran los compuestos orgánicos volátiles (COV), el monóxido de carbono (CO) y óxidos de nitrógeno.
       .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-11.col-11
         .tarjeta-avatar1.efecto-tarjeta(data-aos="flip-left")
           .tarjeta1.fondo7.p-0.mt-0
             img(src='@/assets/curso/tema4/imagen2.jpg')
             p.text-bold.m-4 GEI indirectos
-            p.m-4 Son aquellos gases precursores del efecto invernadero, dentro estos, se encuentran el CO2, CH4, N2O y compuestos halogenados.
+            p.m-4 Son aquellos gases precursores del efecto invernadero, dentro estos, se encuentran el CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O y compuestos halogenados.
     span.my-5.text-bold(data-aos="fade-up-right") El calentamiento global depende, en gran medida, de la concentración en la cual se encuentre cada GEI en la atmósfera y de su potencial de calentamiento global (PCG). 
-    span(data-aos="fade-up-left") El GEI con mayor concentración en la atmosfera es el CO2, sin embargo, este no es el gas con mayor PCG, siendo el hexafluoruro de azufre el gas con el mayor PCG.
+    span(data-aos="fade-up-left") El GEI con mayor concentración en la atmosfera es el CO<sub>2</sub>, sin embargo, este no es el gas con mayor PCG, siendo el hexafluoruro de azufre el gas con el mayor PCG.
     p.my-5(data-aos="fade-up") Los potenciales de calentamiento global para cada GEI son:
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-right")
       h5 Tabla 2. 
@@ -46,13 +46,13 @@
                 td.text-bold.text-center PCG
             tbody
               tr
-                td.anchocol.fondo3.font15px.text-bold Dióxido de carbono (CO2)
+                td.anchocol.fondo3.font15px.text-bold Dióxido de carbono (CO<sub>2</sub>)
                 td.font15px.fondo8 1
               tr
-                td.anchocol.fondo3.font15px.text-bold Metano (CH4)
+                td.anchocol.fondo3.font15px.text-bold Metano (CH<sub>4</sub>)
                 td.font15px.fondo8  Entre 21 y 23
               tr
-                td.anchocol.fondo3.font15px.text-bold.alinearArriba Óxido nitroso (N2O) 
+                td.anchocol.fondo3.font15px.text-bold.alinearArriba Óxido nitroso (N<sub>2</sub>O) 
                 td.font15px.fondo8 Entre 230 y 310
               tr
                 td.anchocol.fondo3.font15px.text-bold.alinearArriba Perfluorocarbonos (PFC)
@@ -61,7 +61,7 @@
                 td.anchocol.fondo3.font15px.text-bold Hidrofluorocarbonos (HFC)
                 td.font15px.fondo8 Entre 13.000 y 14.000
               tr
-                td.anchocol.fondo3.font15px.text-bold.alinearArriba Hexafluoruro de carbono (SF6)
+                td.anchocol.fondo3.font15px.text-bold.alinearArriba Hexafluoruro de carbono (SF<sub>6</sub>)
                 td.font15px.fondo8 23.000       
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5(data-aos="fade-up-left")
         img(src='@/assets/curso/tema4/imagen3.png')
@@ -79,7 +79,7 @@
                 p Consumo de combustible y energía eléctrica.
                 .row
                   .col-xxl-2.col-xl-3.col-lg-3.col-md-4.col-sm-3.col-5.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2
+                    p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img(src='@/assets/curso/tema4/slider4.svg')
@@ -88,16 +88,16 @@
                 p Consumo de combustible y energía eléctrica.
                 .row
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-4.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2
+                    p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img(src='@/assets/curso/tema4/slider1.svg')
               .col-md-8.mb-4.mb-md-0
-                h4.mb-0 industria
+                h4.mb-0 Industria
                 p Consumo de combustible y emisión de contaminantes derivado de procesos.
                 .row
                   .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-8.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2, CFC, HFC y SF6.
+                    p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>, CFC, HFC y SF<sub>6</sub>.
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img.mb-4(src='@/assets/curso/tema4/slider2.svg')
@@ -106,7 +106,7 @@
                 p.me-md-5.me-sm-0 Uso de fertilizantes de tipo sintético, fermentación entérica de ganado, gestión del estiércol y uso de equipos agrícolas. 
                 .row
                   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-10.col-6.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center.mt-md-0 GIE= CO2, N2O y CH4
+                    p.mb-0.text-bold.text-center.mt-md-0 GIE= CO<sub>2</sub>, N<sub>2</sub>O y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img(src='@/assets/curso/tema4/slider5.svg')
@@ -115,7 +115,7 @@
                 p Consumo de combustible.
                 .row
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-5.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2
+                    p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img.mb-4(src='@/assets/curso/tema4/slider6.svg')
@@ -124,16 +124,16 @@
                 p Descomposición de materia orgánica en rellenos sanitarios, incineración de residuos y transporte.
                 .row
                   .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-5.col-6.fondoblanco.p-2
-                    p.mb-0.text-bold.text-center GIE= CO2 y CH4
+                    p.mb-0.text-bold.text-center GIE= CO<sub>2</sub> y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
                   img.mb-4(src='@/assets/curso/tema4/slider7.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Sumideros
-                p Cambios de uso del suelo. CO2
+                p Cambios de uso del suelo. CO<sub>2</sub>
                 .row
                   .col-xxl-1.col-xl-1.col-lg-2.col-md-3.col-sm-3.col-3.p-2.fondoblanco
-                    p.mb-0.text-bold.text-center CO2
+                    p.mb-0.text-bold.text-center CO<sub>2</sub>
     p.my-5(data-aos="fade-up-right") Asimismo, dentro de las fuentes de emisión de contaminantes atmosféricos se pueden diferenciar dos tipos, los cuales se describen a continuación:
     .row.justify-content-center.my-5
       .col-xxl-10.col-xl-10.col-lg-11.col-md-12

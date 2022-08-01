@@ -159,13 +159,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Banco Interamericano de Desarrollo [BID]. (2013). Estrategias de mitigación y métodos para la estimación de las emisiones de Gases Efecto Invernadero en el sector transporte. ',
+        'Banco Interamericano de Desarrollo [BID]. (2013). Estrategias de mitigación y métodos para la estimación de las emisiones de Gases Efecto Invernadero en el sector transporte.',
       link:
         'https://publications.iadb.org/publications/spanish/document/Estrategias-de-mitigaci%C3%B3n-y-m%C3%A9todos-para-la-estimaci%C3%B3n-de-las-emisiones-de-gases-de-efecto-invernadero-en-el-transporte.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible [Minambiente]. (2017). Política Nacional de Cambio Climático. .Puntoaparte Editores. ',
+        'Ministerio de Ambiente y Desarrollo Sostenible [Minambiente]. (2017). Política Nacional de Cambio Climático. Puntoaparte Editores.',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2022/01/9.-Politica-Nacional-de-Cambio-Climatico.pdf',
     },
@@ -217,7 +217,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'CO2 equivalente (CO2-e)',
+      termino: 'CO<sub>2</sub> equivalente (CO<sub>2</sub>-e)',
       significado:
         'unidad universal de medida que indica el potencial de calentamiento global (PCG) de cada uno de los seis gases efecto invernadero, expresado en términos del PCG de una unidad de dióxido de carbono. Se utiliza para evaluar la liberación (o el evitar la liberación) de diferentes gases efecto invernadero contra un común denominador.',
     },
@@ -344,10 +344,41 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Maria Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Ilustración',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Validación audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Emilsen Alfonso Bautista',
