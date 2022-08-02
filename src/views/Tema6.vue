@@ -87,7 +87,7 @@
                 | Producción de metales.
               li 
                 i.fas.fa-asterisk
-                | Producción y consumo de halocarbonos y SF<sub>6</sub>.
+                p.mb-0 Producción y consumo de halocarbonos y SF<sub>6</sub>.
           .col-md-4
             img(src='@/assets/curso/tema6/industrial.svg')      
       .tarjeta.color-acento-botones--borde.p-4(titulo="Sector disolventes y otras sustancias")

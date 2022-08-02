@@ -130,7 +130,7 @@
                   img.mb-4(src='@/assets/curso/tema4/slider7.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Sumideros
-                p Cambios de uso del suelo. CO<sub>2</sub>
+                p Cambios de uso del suelo.
                 .row
                   .col-xxl-1.col-xl-1.col-lg-2.col-md-3.col-sm-3.col-3.p-2.fondoblanco
                     p.mb-0.text-bold.text-center CO<sub>2</sub>
