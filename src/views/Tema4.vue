@@ -77,8 +77,8 @@
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.sm-mt-4.margenabajo Residencial
                 p Consumo de combustible y energía eléctrica.
-                .row
-                  .col-xxl-2.col-xl-3.col-lg-3.col-md-4.col-sm-3.col-5.fondoblanco.p-2
+                .row.ps-3
+                  .col-xxl-2.col-xl-3.col-lg-3.col-md-4.col-sm-3.col-5.col-xs-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
@@ -86,7 +86,7 @@
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Servicios
                 p Consumo de combustible y energía eléctrica.
-                .row
+                .row.ps-3
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-4.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
@@ -95,16 +95,16 @@
               .col-md-8.mb-4.mb-md-0
                 h4.mb-0 Industria
                 p Consumo de combustible y emisión de contaminantes derivado de procesos.
-                .row
-                  .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-8.fondoblanco.p-2
+                .row.ps-3
+                  .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-9.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>, CFC, HFC y SF<sub>6</sub>.
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-9.ps-5.mb-4
                   img.mb-4(src='@/assets/curso/tema4/slider2.svg')
               .col-lg-8.col-md-7.col-sm-7.mb-4.mb-md-0
                 h4.mb-0 Agrícola
                 p.me-md-5.me-sm-0 Uso de fertilizantes de tipo sintético, fermentación entérica de ganado, gestión del estiércol y uso de equipos agrícolas. 
-                .row
+                .row.ps-3
                   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-10.col-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center.mt-md-0 GIE= CO<sub>2</sub>, N<sub>2</sub>O y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
@@ -113,7 +113,7 @@
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Transporte
                 p Consumo de combustible.
-                .row
+                .row.ps-3
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-5.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
@@ -122,7 +122,7 @@
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Residuos
                 p Descomposición de materia orgánica en rellenos sanitarios, incineración de residuos y transporte.
-                .row
+                .row.ps-3
                   .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-5.col-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub> y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
@@ -131,7 +131,7 @@
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Sumideros
                 p Cambios de uso del suelo.
-                .row
+                .row.ps-3
                   .col-xxl-1.col-xl-1.col-lg-2.col-md-3.col-sm-3.col-3.p-2.fondoblanco
                     p.mb-0.text-bold.text-center CO<sub>2</sub>
     p.my-5(data-aos="fade-up-right") Asimismo, dentro de las fuentes de emisión de contaminantes atmosféricos se pueden diferenciar dos tipos, los cuales se describen a continuación:
@@ -150,7 +150,7 @@
             .titulo-sexto.color-acento-contenido
               h5 Consumo de combustible
             figure
-              img(src='@/assets/curso/tema4/tabemisiones.svg')
+              img(src='@/assets/curso/tema4/tabemisiones.png')
           .col-md-6.mb-4.mb-md-0
             p Esta es la forma elemental para cuantificar emisiones de GEI de cada una de las fuentes de emisión de la organización. Para determinar el inventario de emisiones, se debe contar con información de consumo de combustibles de cada uno de los procesos y del transporte; también, en algunos casos, se puede incluir el consumo de energía eléctrica para ampliar el enfoque de análisis.
       .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema4/huella.svg')")

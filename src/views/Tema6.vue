@@ -157,7 +157,7 @@
     p.my-5(data-aos="fade-up-right") Finalmente, en el 2012, se aprobó la Enmienda de Doha al Protocolo de Kyoto, sin embargo, esta enmienda no ha entrado en vigor, ya que se requiere tener 144 instrumentos de aceptación para conocer los contenidos de la enmienda Doha. Revise el siguiente recurso educativo:
     .row.justify-content-center
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12(data-aos="fade-up-left")
-        img(src='@/assets/curso/tema6/figura4.svg')
+        img(src='@/assets/curso/tema6/figura4.png')
     p.my-5 Durante este periodo de compromisos, los países desarrollados establecieron como meta la reducción del 18 % de las emisiones de GEI durante el 2013 y el 2020, respecto a las concentraciones de GEI en la atmósfera del año 1990; sin embargo, se dio una modificación a los países anexo 1 y 2, cambiando así los compromisos de estos en el segundo periodo de compromisos del Protocolo.
     separador
     #montreal.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
