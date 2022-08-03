@@ -36,7 +36,7 @@
         img.ms-3.nomostrar(src='@/assets/curso/tema3/linea.png')
     .row
       .col-xxl-3.col-xl-3.col-lg-3.col-md-3
-      .col-xxl-3.col-xl-3.col-lg-3.col-md-3.fondo5.px-0.pb-0.pt-3.ms-4.mt-sm-5.pt-sm-5.pt-md-4(data-aos="fade-up-right")
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-3.fondo5.px-0.pb-0.pt-3.mt-sm-5.pt-sm-5.pt-md-4.ms-lg-3(data-aos="fade-up-right")
         p.mx-4.mt-5 Los planes integrales de gestión del cambio climático territoriales.
         img(src='@/assets/curso/tema3/imagen4.png')
       .col-xxl-2.col-xl-2.col-lg-2.col-md-2

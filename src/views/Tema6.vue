@@ -11,14 +11,14 @@
     separador
     #kioto.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
       h2 6.1 Protocolo de Kyoto.
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12(data-aos="fade-up-right")
         p Fue aprobado el 11 de diciembre de 1997 y entró en vigor el 16 de febrero de 2005 tras un complicado proceso de ratificación. Este protocolo cuenta con 192 países llamados Partes.
         .cajon.puntacajon.p-4.my-4.fondo10
           p El Protocolo de Kyoto es el primer tratado que da inicio o pone en funcionamiento a la CMNUCC, el cual fue creado con el firme propósito de reducir las emisiones de GEI por parte de los países desarrollados, de acuerdo con unas metas establecidas de forma individual, y también propone que los países en desarrollo solo establezcan planes, políticas y estrategias que propendan por la mitigación de los GEI emitidos e informen periódicamente sobre los resultados obtenidos en la implementación de estos instrumentos.
         p El Protocolo de Kyoto se basa en los principios y disposiciones de la CMNUCC y divide a sus países parte en tres anexos; para conocerlos, revise el siguiente recurso educativo: 
       .col-xxl-5.col-xl-5.col-lg-5.col-md-10(data-aos="fade-up-left")
-        img.mb-5(src='@/assets/curso/tema6/imagen2.png')
+        img(src='@/assets/curso/tema6/imagen2.png')
     .row.justify-content-center.mb-5
       .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11
         .tarjeta-avatar1.efecto-tarjeta(data-aos="flip-left")

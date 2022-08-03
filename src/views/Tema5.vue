@@ -14,39 +14,45 @@
         .cajon.puntacajon.p-4.mb-4.fondo10(data-aos="fade-up-right")
           .row.justify-content-center.align-items-center
             .col-xxl-2.col-xl-2.col-lg-2.col-md-3.col-sm-6.col-6.ps-4
-              img(src='@/assets/curso/tema5/figura1.svg')
+              img.sizeimg3(src='@/assets/curso/tema5/figura1.svg')
             .col-xxl-10.col-xl-10.col-lg-9.col-md-8.col-sm-11.col-11.pe-4
-              p Por ello, las organizaciones públicas, privadas, industriales y de distinta COR de negocio son llamadas a desarrollar, de manera transparente, coherente y exacta, el reporte de las emisiones generadas por sus actividades, para que sobre estas se puedan establecer estrategias, programas, proyectos y acciones que impulsen su mitigación.
-              p A nivel internacional, se encuentran diversas metodologías a partir de las cuales se puede realizar la medición de los GEI; sin embargo, aquí se enuncian las más usadas, indistintamente del COR de negocio de las organizaciones.
+              p.mt-4 Por ello, las organizaciones públicas, privadas, industriales y de distinta COR de negocio son llamadas a desarrollar, de manera transparente, coherente y exacta, el reporte de las emisiones generadas por sus actividades, para que sobre estas se puedan establecer estrategias, programas, proyectos y acciones que impulsen su mitigación.
+              p.mb-0 A nivel internacional, se encuentran diversas metodologías a partir de las cuales se puede realizar la medición de los GEI; sin embargo, aquí se enuncian las más usadas, indistintamente del COR de negocio de las organizaciones.
     separador
     #iso.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
       h2 5.1 ISO 14064-1:2019
     p(data-aos="fade-up") Este se ha definido como el instrumento para la cuantificación de los GEI, la cual tiene como objetivo trazar una directriz clara para comunicar informes de emisiones veraces y que sustenten las estrategias de mitigación y reducción de estas.
-    p.mb-5(data-aos="fade-up") Este estándar está compuesto por tres estándares, donde se establecen los principios, criterios y etapas necesarias para cuantificar y verificar las emisiones de GEI de una organización y la definición de prácticas para la gestión, comunicación y validación de los informes de emisiones de GEI; para conocerlos, revise con atención el siguiente recurso educativo: 
-    .row.mb-5(data-aos="fade-down-left")
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up-right")
-        .tarjeta1.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema5/imagen2.png')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen3.jpg')})`}")
+    p.mb-5(data-aos="fade-up") Este estándar está compuesto por tres estándares, donde se establecen los principios, criterios y etapas necesarias para cuantificar y verificar las emisiones de GEI de una organización y la definición de prácticas para la gestión, comunicación y validación de los informes de emisiones de GEI; para conocerlos, revise con atención el siguiente recurso educativo:
 
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up-right")
-        .tarjeta1.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema5/imagen6.png')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen7.jpg')})`}")
+    //-tarjetas slide nuevo
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/tema5/imagen3.jpg')
+          .crd_hover_txt--body
+            h4.mb-3 ISO 14064-1
+            p.mb-0 Muestra los criterios para diseñar y desarrollar los inventarios de GEI en una organización, así como el proceso de seguimiento a estos. Aquí se encuentran los requisitos para definir los límites, las fuentes de emisión, criterios metodológicos de cuantificación, lineamientos para realizar el informe del inventario de emisiones y los procesos de auditoría y verificación de este. Está basado en los  principios de: pertinencia, cobertura total, coherencia, exactitud y transparencia. 
 
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up-right")
-        .tarjeta1.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema5/imagen4.png')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/imagen5.jpg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema5/imagen4.jpg")
+          .crd_hover_txt--body
+            h4.mb-3 ISO 14064-2
+            p.mb-0 Detalla en marco metodológico para la cuantificación de las metas de reducción de los GEI emitidos por una organización a través de planes, programas y proyectos. Aquí se muestran los criterios para estructurar o diseñar proyectos de este tipo sin ir en contra de las directrices establecidas en el Protocolo de Kyoto.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema5/imagen5.jpg")
+          .crd_hover_txt--body
+            h4.mb-3 ISO 14064-3
+            p.mb-0.me-5 Detalla los criterios y requisitos para ejecutar correctamente la validación de los inventarios de GEI. Aquí se muestran los parámetros para evaluar y comunicar estos inventarios. Este estándar es aplicado por organizaciones que se encargan del proceso de auditoría y de verificación de los inventarios de emisión. 
+
     separador
     #ghg.titulo-segundo.color-acento-contenido(data-aos="fade-up-right")
       h2 5.2 GHG Protocol
@@ -62,7 +68,7 @@
     p.mb-5(data-aos="fade-up") El estándar de cuantificación y reporte de emisiones a nivel corporativo (ECCR) establece los criterios metodológicos para desarrollar inventarios de emisiones, donde se incluya la cuantificación de los GEI considerados en el Protocolo de Kyoto. Este estándar se constituye como la herramienta clave para las organizaciones en términos de contabilización y gestión de las emisiones de GEI basados en los siguientes principios.
     .row.justify-content-center.mt-5
       .col-xxl-12(data-aos="fade-up-right")
-        .row.justify-content-start
+        .row.justify-content-start.fondoamarillo2.margenx-2
           .col-xxl-6.col-xl-8.col-lg-9.col-md-11.col-sm-9.col-12
             .titulo-sexto.color-acento-contenido.encima.mb-5
               h5 Figura 5. 

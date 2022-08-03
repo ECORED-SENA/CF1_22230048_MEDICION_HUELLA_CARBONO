@@ -18,6 +18,36 @@
   100%
     transform: translateY(0px)
 
+///////// Card hover
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FFBCA8
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  @media (max-width: 500px)  
+    .crd_hover_txt--body
+      h4 
+        font-size: 1em
+      p
+        font-size: 0.8em
+
 .fondo1
   background-color: #E5FFE9 
   padding: 30px
@@ -39,6 +69,7 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center
+
 
 .fondo6
   background-color: #E5FFE9 !important
@@ -68,6 +99,9 @@
 
 .fondoamarillo
   background-color: #FFFFDD
+
+.fondoamarillo2
+  background-color: #FDFDED
 
 .fondoamarillo:hover
   background-color: #FFBCA8
@@ -176,12 +210,19 @@
   height: 110px !important
   margin-top: 1em !important
 
+.sizeimg3
+  width: 80% !important
+  height: 80% !important
+
 .sizetarjetaslider
   width: 295px !important
   height: 270px !important
 
 .anchocol
   width: 295px !important
+
+.tabla-a table
+  min-width: 600px !important
 
 .txtregular
   font-weight: 500 !important
@@ -233,6 +274,16 @@
 .slyder-a__btn--atrs
   background-color: #00CB95 !important
 
+.tabs-b__tab
+  background-color: #FAFAFA
+
+.margenps-5
+  padding-left: 4em
+
+.margenx-2
+  margin-left: 2em
+  margin-right: 2em 
+
 @keyframes desplazamiento
   0%
     margin-top: 0
@@ -266,7 +317,16 @@
     right: -10px
   .slyder-a__tipo-a .slyder-a__btn--atrs
     left: -10px
+  .margenps-5
+    padding-left: 5em
+  .margenx-2
+    margin: 0
+
 @media (max-width: 768px)
+  .fondo4
+    background-color: #F7F7F7
+  .fondo5
+    background-color: #F7F7F7
   .subir
     margin-top: -50px
   .subir1
@@ -279,6 +339,9 @@
   .slyder-a__tipo-a .slyder-a__btn--atrs
     top: 120px
     left: -15px
+  .margenps-5
+    padding-left: 1.5em
+
 @media (max-width: 576px)
   .subir
     margin-top: -30px

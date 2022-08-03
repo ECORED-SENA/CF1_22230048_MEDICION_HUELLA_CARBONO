@@ -16,11 +16,11 @@
     p.mt-5(data-aos="fade-up-right") A su vez, se cuenta con un programa de reducción de impactos por olores ofensivos y ruido, que tiene como fin la adopción de guías para su mitigación; por otro lado,  el Ministerio ha promovido reducciones arancelarias como un mecanismo complementario para impulsar el control y mejoramiento del ambiente, como la reducción de la emisión de GEI y otros gases contaminantes; dentro de las reducciones arancelarias, se encuentra la exclusión  del impuesto del valor agregado a las ventas (IVA) y la deducción del impuesto a la renta de las inversiones realizadas con fines de control y reducción de emisiones.
     p.mb-5(data-aos="fade-up-right") Las líneas temáticas bajo las cuales se ha establecido el marco normativo nacional en relación con las fuentes de emisión de contaminantes atmosféricos se puede observar en la tabla 1:
     .row.justify-content-center
-      .col-xxl-10(data-aos="fade-up-right")
+      .col-xxl-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1. 
           span Listado líneas temáticas del marco normativo nacional con sus respectivas normas
-        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-up-left")
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
           table
             caption.fondo2.font16px Nota. 
               span.txtregular Tomada de Minambiente (s. f.).

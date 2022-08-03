@@ -34,35 +34,35 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-up-right")
       h5 Tabla 2. 
       span Potenciales de calentamiento GEI   
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5
-        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-up-right") 
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
           table
             caption.fondo2.font16px Nota. 
               span.txtregular Tomada de Minambiente (s. f.).
             thead
               tr.fondo2
                 td.anchocol.text-bold.text-center GEI
-                td.text-bold.text-center PCG
+                td.anchocol2.text-bold.text-center PCG
             tbody
               tr
                 td.anchocol.fondo3.font15px.text-bold Dióxido de carbono (CO<sub>2</sub>)
-                td.font15px.fondo8 1
+                td.anchocol2.font15px.fondo8 1
               tr
                 td.anchocol.fondo3.font15px.text-bold Metano (CH<sub>4</sub>)
-                td.font15px.fondo8  Entre 21 y 23
+                td.anchocol2.font15px.fondo8  Entre 21 y 23
               tr
                 td.anchocol.fondo3.font15px.text-bold.alinearArriba Óxido nitroso (N<sub>2</sub>O) 
-                td.font15px.fondo8 Entre 230 y 310
+                td.anchocol2.font15px.fondo8 Entre 230 y 310
               tr
                 td.anchocol.fondo3.font15px.text-bold.alinearArriba Perfluorocarbonos (PFC)
-                td.font15px.fondo8 Entre 5.700 y 11.900
+                td.anchocol2.font15px.fondo8 Entre 5.700 y 11.900
               tr
                 td.anchocol.fondo3.font15px.text-bold Hidrofluorocarbonos (HFC)
-                td.font15px.fondo8 Entre 13.000 y 14.000
+                td.anchocol2.font15px.fondo8 Entre 13.000 y 14.000
               tr
                 td.anchocol.fondo3.font15px.text-bold.alinearArriba Hexafluoruro de carbono (SF<sub>6</sub>)
-                td.font15px.fondo8 23.000       
+                td.anchocol2.font15px.fondo8 23.000       
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-11.mb-5(data-aos="fade-up-left")
         img(src='@/assets/curso/tema4/imagen3.png')
     p.my-5(data-aos="fade-up-right") Los GEI se generan por el desarrollo de cualquier actividad humana, por lo tanto, cada uno de los sectores de la economía son considerados emisores de gases contaminantes. En el siguiente recurso educativo, se presentan los GEI emitidos por sector y fuente de emisión.
@@ -72,8 +72,8 @@
         .tarjeta.fondo9.p-4.mb-5(data-aos="fade-up-right")
           SlyderA
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
-                  img.mb-4(src='@/assets/curso/tema4/slider3.svg')
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
+                  img(src='@/assets/curso/tema4/slider3.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.sm-mt-4.margenabajo Residencial
                 p Consumo de combustible y energía eléctrica.
@@ -81,7 +81,7 @@
                   .col-xxl-2.col-xl-3.col-lg-3.col-md-4.col-sm-3.col-5.col-xs-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
                   img(src='@/assets/curso/tema4/slider4.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Servicios
@@ -90,7 +90,7 @@
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-4.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
                   img(src='@/assets/curso/tema4/slider1.svg')
               .col-md-8.mb-4.mb-md-0
                 h4.mb-0 Industria
@@ -99,8 +99,8 @@
                   .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-7.col-9.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>, CFC, HFC y SF<sub>6</sub>.
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-9.ps-5.mb-4
-                  img.mb-4(src='@/assets/curso/tema4/slider2.svg')
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-9.ps-5
+                  img(src='@/assets/curso/tema4/slider2.svg')
               .col-lg-8.col-md-7.col-sm-7.mb-4.mb-md-0
                 h4.mb-0 Agrícola
                 p.me-md-5.me-sm-0 Uso de fertilizantes de tipo sintético, fermentación entérica de ganado, gestión del estiércol y uso de equipos agrícolas. 
@@ -108,7 +108,7 @@
                   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-10.col-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center.mt-md-0 GIE= CO<sub>2</sub>, N<sub>2</sub>O y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
                   img(src='@/assets/curso/tema4/slider5.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Transporte
@@ -117,8 +117,8 @@
                   .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-4.col-5.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub>
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
-                  img.mb-4(src='@/assets/curso/tema4/slider6.svg')
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
+                  img(src='@/assets/curso/tema4/slider6.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Residuos
                 p Descomposición de materia orgánica en rellenos sanitarios, incineración de residuos y transporte.
@@ -126,8 +126,8 @@
                   .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-5.col-6.fondoblanco.p-2
                     p.mb-0.text-bold.text-center GIE= CO<sub>2</sub> y CH<sub>4</sub>
             .row.justify-content-center.align-items-center
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5.mb-4
-                  img.mb-4(src='@/assets/curso/tema4/slider7.svg')
+              .col-xxl-2.col-xl-2.col-lg-3.col-md-4.col-sm-6.col-7.ps-5
+                  img(src='@/assets/curso/tema4/slider7.svg')
               .col-md-7.mb-4.mb-md-0
                 h4.mb-0.margenabajo Sumideros
                 p Cambios de uso del suelo.
@@ -147,17 +147,17 @@
       .py-4.py-md-5(titulo="Inventario de emisiones" :icono="require('@/assets/curso/tema4/emisiones.svg')")
         .row.justify-content-center.align-items-center
           .col-md-4
+            figure
+              img(src='@/assets/curso/tema4/tabhuella.svg')
+          .col-md-6.mb-4.mb-md-0
+            p.mt-4 Esta es la forma elemental para cuantificar emisiones de GEI de cada una de las fuentes de emisión de la organización. Para determinar el inventario de emisiones, se debe contar con información de consumo de combustibles de cada uno de los procesos y del transporte; también, en algunos casos, se puede incluir el consumo de energía eléctrica para ampliar el enfoque de análisis.
+      .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema4/huella.svg')")
+        .row.justify-content-center
+          .col-md-4.mb-4.mb-md-0
             .titulo-sexto.color-acento-contenido
               h5 Consumo de combustible
             figure
               img(src='@/assets/curso/tema4/tabemisiones.png')
-          .col-md-6.mb-4.mb-md-0
-            p Esta es la forma elemental para cuantificar emisiones de GEI de cada una de las fuentes de emisión de la organización. Para determinar el inventario de emisiones, se debe contar con información de consumo de combustibles de cada uno de los procesos y del transporte; también, en algunos casos, se puede incluir el consumo de energía eléctrica para ampliar el enfoque de análisis.
-      .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema4/huella.svg')")
-        .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema4/tabhuella.svg')
           .col-md-6
             p Esta forma de cuantificación de las emisiones de GEI propone un mayor análisis de cada una de las fuentes de emisión de la organización, ya que se realiza bajo la perspectiva del ciclo de vida e incluye las fuentes de emisión directas en indirectas. Existen dos tipos de huella de carbono, las cuales son:
             span.text-bold Huella de carbono organizacional: 
@@ -194,7 +194,7 @@
     p.my-5(data-aos="fade-up-right") Cabe resaltar que para poder cuantificar la huella de carbono se debe tener claro el nivel de actividad generadora de las emisiones de GEI: por ejemplo, la cantidad de gas natural utilizado para el funcionamiento de una caldera y los factores de emisión que presumen la cantidad de emisiones de GEI por cada unidad del dato de la actividad; estos varían de acuerdo con la actividad evaluada. En el componente formativo 2, “Cálculo de GEI y estrategias de gestión”, encontrará las fuentes para la selección de estos factores de emisión de conformidad con la actividad evaluada.
     .cajon.puntacajon.p-4.mb-4.fondo10(data-aos="fade")
       .row.justify-content-center.align-items-center
-        .col-xxl-2.col-xl-2.col-lg-2.col-md-3.col-sm-6.col-6
+        .col-xxl-1.col-xl-2.col-lg-2.col-md-3.col-sm-5.col-5
           img(src='@/assets/curso/tema4/figura2.svg')
         .col-xxl-10.col-xl-10.col-lg-9.col-md-8.col-sm-11.col-11.fondo
           p El análisis de huella de carbono es la base sobre la cual la organización identifica los procesos que generan mayor impacto sobre la calidad del aire y el calentamiento global, y establece las estrategias de gestión encaminadas a disminuir ese impacto. Las estrategias pueden partir desde la reducción y el uso eficiente de algunos recursos (combustible, energía eléctrica) hasta la compensación a través de la compra de bonos de carbono, entre otras. Estas estrategias tienen como fin último la mejora continua de los procesos y el desempeño ambiental de la organización.
